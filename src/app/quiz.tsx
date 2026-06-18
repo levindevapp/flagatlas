@@ -1,6 +1,14 @@
 import { Image } from 'expo-image';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import { ChevronDown, ChevronLeft, CircleHelp, ClipboardList, Earth } from 'lucide-react-native';
+import {
+  ChevronDown,
+  ChevronLeft,
+  CircleCheck,
+  CircleHelp,
+  CircleX,
+  ClipboardList,
+  Earth,
+} from 'lucide-react-native';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -57,6 +65,7 @@ export default function QuizScreen() {
   const { height } = useWindowDimensions();
   const isNormalSetup = phase === 'setup' && mode === 'normal';
   const isCompactSetup = height < 820;
+  const isCompactQuestion = height < 760;
 
   const current = questions[index];
   const pool = getCountriesByRegion(region);
@@ -183,8 +192,17 @@ export default function QuizScreen() {
   if (phase === 'question' && current) {
     const progress = (index + 1) / questions.length;
     return (
-      <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-        <Stack.Screen options={{ headerShown: true, title: 'クイズ' }} />
+      <View style={styles.screen}>
+        <Stack.Screen options={{ headerShown: false }} />
+        <View
+          style={[
+            styles.questionContent,
+            {
+              paddingTop: insets.top + (isCompactQuestion ? 8 : 14),
+              paddingBottom: insets.bottom + (isCompactQuestion ? 8 : 14),
+              gap: isCompactQuestion ? 9 : 12,
+            },
+          ]}>
         <View style={styles.quizHeader}>
           <Text style={styles.questionCount}>
             問題 {index + 1} / {questions.length}
@@ -196,7 +214,7 @@ export default function QuizScreen() {
           <View style={{ flex: 1 - progress }} />
         </View>
 
-        <View style={styles.flagCard}>
+        <View style={[styles.flagCard, isCompactQuestion && styles.flagCardCompact]}>
           <Image
             source={getFlagSource(current)}
             style={styles.flagImage}
@@ -221,8 +239,10 @@ export default function QuizScreen() {
                   answered && isCorrect && styles.choiceCorrect,
                   answered && isSelected && !isCorrect && styles.choiceWrong,
                 ]}>
-                <Text style={styles.choiceNumber}>{choiceIndex + 1}</Text>
+                <Text style={styles.choiceLabel}>{String.fromCharCode(65 + choiceIndex)}</Text>
                 <Text style={styles.choiceText}>{country.nameJa}</Text>
+                {answered && isCorrect && <CircleCheck color="#12a150" size={24} strokeWidth={2.8} />}
+                {answered && isSelected && !isCorrect && <CircleX color="#e23b3b" size={24} strokeWidth={2.8} />}
               </Pressable>
             );
           })}
@@ -235,8 +255,9 @@ export default function QuizScreen() {
             onPress={goNext}
           />
         )}
-        <SecondaryButton title="中断" onPress={() => setPhase('setup')} />
-      </ScrollView>
+        <SecondaryButton title="中断" variant="underline" onPress={() => setPhase('setup')} />
+        </View>
+      </View>
     );
   }
 
@@ -542,10 +563,20 @@ function PrimaryButton({
   );
 }
 
-function SecondaryButton({ onPress, title }: { onPress: () => void; title: string }) {
+function SecondaryButton({
+  onPress,
+  title,
+  variant = 'filled',
+}: {
+  onPress: () => void;
+  title: string;
+  variant?: 'filled' | 'underline';
+}) {
+  const isUnderline = variant === 'underline';
+
   return (
-    <Pressable onPress={onPress} style={styles.secondaryButton}>
-      <Text style={styles.secondaryButtonText}>{title}</Text>
+    <Pressable onPress={onPress} style={isUnderline ? styles.underlineButton : styles.secondaryButton}>
+      <Text style={isUnderline ? styles.underlineButtonText : styles.secondaryButtonText}>{title}</Text>
     </Pressable>
   );
 }
@@ -874,6 +905,13 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingBottom: 32,
   },
+  questionContent: {
+    flex: 1,
+    width: '100%',
+    maxWidth: 800,
+    alignSelf: 'center',
+    paddingHorizontal: 18,
+  },
   card: {
     gap: 16,
     padding: 20,
@@ -932,15 +970,17 @@ const styles = StyleSheet.create({
   },
   questionCount: {
     color: '#0067e8',
-    fontSize: 27,
+    fontSize: 16,
+    lineHeight: 21,
   },
   questionRegion: {
     color: '#0067e8',
-    fontSize: 23,
+    fontSize: 15,
+    lineHeight: 20,
   },
   progressTrack: {
-    height: 12,
-    borderRadius: 6,
+    height: 5,
+    borderRadius: 3,
     flexDirection: 'row',
     overflow: 'hidden',
     backgroundColor: '#d8e4f6',
@@ -949,36 +989,45 @@ const styles = StyleSheet.create({
     backgroundColor: '#0077f6',
   },
   flagCard: {
-    height: 250,
-    padding: 24,
-    borderRadius: 16,
+    height: 220,
+    padding: 14,
+    borderRadius: 12,
     borderWidth: 1,
     borderColor: '#cfe0f6',
     backgroundColor: '#ffffff',
+    boxShadow: '0 8px 18px rgba(0, 51, 102, 0.12)',
+  },
+  flagCardCompact: {
+    height: 170,
+    padding: 10,
   },
   flagImage: {
     width: '100%',
     height: '100%',
+    boxShadow: '0 5px 12px rgba(8, 39, 90, 0.14)',
   },
   prompt: {
     color: '#08275a',
-    fontSize: 30,
-    lineHeight: 38,
+    fontSize: 20,
+    lineHeight: 26,
     textAlign: 'center',
   },
   choiceList: {
-    gap: 12,
+    gap: 8,
+    marginBottom: 10,
   },
   choice: {
-    minHeight: 72,
+    minHeight: 58,
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 22,
-    paddingHorizontal: 24,
-    borderRadius: 16,
+    gap: 12,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 12,
     borderWidth: 1,
     borderColor: '#d5e4f8',
     backgroundColor: '#ffffff',
+    boxShadow: '0 5px 12px rgba(0, 51, 102, 0.09)',
   },
   choiceCorrect: {
     borderColor: '#12a150',
@@ -988,34 +1037,44 @@ const styles = StyleSheet.create({
     borderColor: '#e23b3b',
     backgroundColor: '#fff0f0',
   },
-  choiceNumber: {
-    color: '#08275a',
+  choiceLabel: {
+    width: 30,
+    height: 30,
+    overflow: 'hidden',
+    color: '#0067e8',
     fontSize: 24,
+    lineHeight: 30,
+    textAlign: 'center',
+    fontWeight: '700',
+    backgroundColor: 'transparent',
   },
   choiceText: {
     flex: 1,
     color: '#08275a',
-    fontSize: 24,
+    fontSize: 20,
+    fontWeight: '700',
+    lineHeight: 26,
   },
   primaryButton: {
-    minHeight: 56,
+    minHeight: 48,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 12,
     backgroundColor: '#0077f6',
+    boxShadow: '0 7px 14px rgba(0, 119, 246, 0.22)',
   },
   disabledButton: {
     opacity: 0.45,
   },
   primaryButtonText: {
     color: '#ffffff',
-    fontSize: 18,
+    fontSize: 16,
   },
   quizStartButtonText: {
     fontWeight: '700',
   },
   secondaryButton: {
-    minHeight: 56,
+    minHeight: 48,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 16,
@@ -1023,7 +1082,22 @@ const styles = StyleSheet.create({
   },
   secondaryButtonText: {
     color: '#0067e8',
-    fontSize: 18,
+    fontSize: 16,
+  },
+  underlineButton: {
+    minHeight: 32,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 10,
+    borderBottomWidth: 2,
+    borderBottomColor: '#0067e8',
+    backgroundColor: 'transparent',
+  },
+  underlineButtonText: {
+    color: '#0067e8',
+    fontSize: 16,
+    lineHeight: 22,
   },
   eyebrow: {
     color: '#50627f',
