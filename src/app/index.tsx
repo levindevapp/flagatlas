@@ -1,71 +1,113 @@
 import { Image } from 'expo-image';
 import { router } from 'expo-router';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 
 import { MaxContentWidth, Spacing } from '@/constants/theme';
 
+const homeIcons = {
+  flagList: require('@/assets/icons/flag-list.png'),
+  quizGlobe: require('@/assets/icons/quiz-globe.png'),
+  scoreTrophy: require('@/assets/icons/score-trophy.png'),
+  settingsGear: require('@/assets/icons/settings-gear.png'),
+  statsChart: require('@/assets/icons/stats-chart.png'),
+} as const;
+
+type HomeIconSource = (typeof homeIcons)[keyof typeof homeIcons];
+
 export default function HomeScreen() {
+  const { width } = useWindowDimensions();
+  const contentWidth = Math.min(width, MaxContentWidth);
+  const actionCardWidth = (contentWidth - Spacing.three * 2 - Spacing.three) / 2;
+  const actionTitleFontSize = Math.min(25, Math.max(19, actionCardWidth * 0.13));
+
   return (
-    <ScrollView
-      style={styles.screen}
-      contentInsetAdjustmentBehavior="automatic"
-      contentContainerStyle={styles.content}>
-      <View style={styles.container}>
-        <View style={styles.hero}>
-          <Image
-            source={require('@/assets/images/home-hero.png')}
-            style={styles.heroImage}
-            contentFit="cover"
-            accessibilityLabel="FLAG ATLAS"
-          />
-        </View>
+    <View style={styles.screen}>
+      <View style={styles.content}>
+        <View style={styles.container}>
+          <View style={styles.hero}>
+            <Image
+              source={require('@/assets/images/home-hero.png')}
+              style={styles.heroImage}
+              contentFit="cover"
+              accessibilityLabel="FLAG ATLAS"
+            />
+            <View style={styles.heroLogo}>
+              <Text style={styles.heroLogoText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.72}>
+                FLAG ATLAS
+              </Text>
+            </View>
+          </View>
 
-        <View style={styles.primaryGrid}>
-          <HomeAction
-            title="通常クイズ"
-            description="世界の国旗を学ぼう"
-            accent="#0077f6"
-            icon="🌐"
-            onPress={() => router.push('/quiz?mode=normal')}
-          />
-          <HomeAction
-            title="スコアアタック"
-            description="30問で最高点を狙おう"
-            accent="#ff8a00"
-            icon="🏆"
-            onPress={() => router.push('/quiz?mode=score')}
-          />
-        </View>
+          <View style={styles.primaryGrid}>
+            <HomeAction
+              title="通常クイズ"
+              description="世界の国旗を学ぼう"
+              accent="#0077f6"
+              iconSource={homeIcons.quizGlobe}
+              titleFontSize={actionTitleFontSize}
+              onPress={() => router.push('/quiz?mode=normal')}
+            />
+            <HomeAction
+              title="スコアアタック"
+              description="ハイスコアを狙おう"
+              accent="#ff8a00"
+              iconSource={homeIcons.scoreTrophy}
+              titleFontSize={actionTitleFontSize}
+              onPress={() => router.push('/quiz?mode=score')}
+            />
+          </View>
 
-        <View style={styles.secondaryGrid}>
-          <SmallAction title="国旗一覧" icon="⚑" onPress={() => router.push('/flags')} />
-          <SmallAction title="成績" icon="▮▮▮" onPress={() => router.push('/records')} />
-          <SmallAction title="設定" icon="⚙" onPress={() => router.push('/settings')} />
+          <View style={styles.secondaryGrid}>
+            <SmallAction
+              title="国旗一覧"
+              iconSource={homeIcons.flagList}
+              arrowColor="#ef2f1d"
+              onPress={() => router.push('/flags')}
+            />
+            <SmallAction
+              title="成績"
+              iconSource={homeIcons.statsChart}
+              arrowColor="#26b83f"
+              onPress={() => router.push('/records')}
+            />
+            <SmallAction
+              title="設定"
+              iconSource={homeIcons.settingsGear}
+              arrowColor="#7b8794"
+              onPress={() => router.push('/settings')}
+            />
+          </View>
         </View>
       </View>
-    </ScrollView>
+    </View>
   );
 }
 
 function HomeAction({
   accent,
   description,
-  icon,
+  iconSource,
   onPress,
   title,
+  titleFontSize,
 }: {
   accent: string;
   description: string;
-  icon: string;
+  iconSource: HomeIconSource;
   onPress: () => void;
   title: string;
+  titleFontSize: number;
 }) {
   return (
     <Pressable
       onPress={onPress}
       style={({ pressed }) => [styles.homeAction, { backgroundColor: accent }, pressed && styles.pressed]}>
-      <Text style={styles.actionIcon}>{icon}</Text>
-      <Text style={styles.actionTitle}>{title}</Text>
+      <View style={styles.actionIconFrame}>
+        <Image source={iconSource} style={styles.actionIcon} contentFit="contain" />
+      </View>
+      <Text style={[styles.actionTitle, { fontSize: titleFontSize, lineHeight: titleFontSize + 6 }]} numberOfLines={1}>
+        {title}
+      </Text>
       <Text style={styles.actionDescription}>{description}</Text>
       <View style={styles.circleArrow}>
         <Text style={[styles.arrow, { color: accent }]}>›</Text>
@@ -75,19 +117,23 @@ function HomeAction({
 }
 
 function SmallAction({
-  icon,
+  arrowColor,
+  iconSource,
   onPress,
   title,
 }: {
-  icon: string;
+  arrowColor: string;
+  iconSource: HomeIconSource;
   onPress: () => void;
   title: string;
 }) {
   return (
     <Pressable onPress={onPress} style={({ pressed }) => [styles.smallAction, pressed && styles.pressed]}>
-      <Text style={styles.smallIcon}>{icon}</Text>
+      <View style={styles.smallIconFrame}>
+        <Image source={iconSource} style={styles.smallIcon} contentFit="contain" />
+      </View>
       <Text style={styles.smallTitle}>{title}</Text>
-      <View style={styles.smallArrow}>
+      <View style={[styles.smallArrow, { backgroundColor: arrowColor }]}>
         <Text style={styles.smallArrowText}>›</Text>
       </View>
     </Pressable>
@@ -118,6 +164,24 @@ const styles = StyleSheet.create({
     width: '100%',
     aspectRatio: 853 / 744,
   },
+  heroLogo: {
+    position: 'absolute',
+    top: '30%',
+    left: Spacing.four,
+    right: Spacing.four,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  heroLogoText: {
+    color: '#ffffff',
+    fontSize: 46,
+    lineHeight: 52,
+    fontWeight: '900',
+    letterSpacing: 0,
+    textShadowColor: 'rgba(0, 76, 170, 0.28)',
+    textShadowOffset: { width: 0, height: 3 },
+    textShadowRadius: 10,
+  },
   primaryGrid: {
     flexDirection: 'row',
     gap: Spacing.three,
@@ -125,45 +189,54 @@ const styles = StyleSheet.create({
   },
   homeAction: {
     flex: 1,
-    minHeight: 172,
+    minHeight: 190,
     borderRadius: 24,
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.three,
-    justifyContent: 'center',
+    paddingHorizontal: Spacing.two,
+    paddingTop: Spacing.three,
+    paddingBottom: 58,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
     gap: Spacing.one,
     borderCurve: 'continuous',
   },
+  actionIconFrame: {
+    width: 88,
+    height: 78,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: Spacing.one,
+  },
   actionIcon: {
-    fontSize: 48,
-    textAlign: 'center',
-    marginBottom: Spacing.two,
+    width: 84,
+    height: 76,
   },
   actionTitle: {
     color: '#ffffff',
-    fontSize: 25,
-    lineHeight: 31,
     fontWeight: '800',
+    textAlign: 'center',
   },
   actionDescription: {
     color: '#ffffff',
     fontSize: 14,
     lineHeight: 20,
     fontWeight: '700',
+    maxWidth: '86%',
+    textAlign: 'center',
   },
   circleArrow: {
     position: 'absolute',
     right: 16,
     bottom: 16,
-    width: 38,
-    height: 38,
-    borderRadius: 19,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#ffffff',
   },
   arrow: {
-    fontSize: 36,
-    lineHeight: 36,
+    fontSize: 30,
+    lineHeight: 30,
     fontWeight: '800',
   },
   secondaryGrid: {
@@ -173,37 +246,48 @@ const styles = StyleSheet.create({
   },
   smallAction: {
     flex: 1,
-    minHeight: 132,
+    minHeight: 146,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     gap: Spacing.one,
     backgroundColor: '#ffffff',
     borderRadius: 22,
     borderCurve: 'continuous',
     boxShadow: '0 8px 22px rgba(0, 51, 102, 0.10)',
+    paddingHorizontal: Spacing.two,
+    paddingTop: Spacing.four,
+    paddingBottom: 48,
+  },
+  smallIconFrame: {
+    width: 62,
+    height: 58,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   smallIcon: {
-    fontSize: 32,
-    color: '#0068df',
-    fontWeight: '800',
+    width: 58,
+    height: 56,
   },
   smallTitle: {
     color: '#0a2a5c',
     fontSize: 16,
     fontWeight: '800',
+    textAlign: 'center',
   },
   smallArrow: {
-    width: 30,
-    height: 30,
-    borderRadius: 15,
+    position: 'absolute',
+    right: 12,
+    bottom: 12,
+    width: 26,
+    height: 26,
+    borderRadius: 13,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#0077f6',
   },
   smallArrowText: {
     color: '#ffffff',
-    fontSize: 28,
-    lineHeight: 28,
+    fontSize: 24,
+    lineHeight: 24,
     fontWeight: '800',
   },
   pressed: {
