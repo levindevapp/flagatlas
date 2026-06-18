@@ -1,0 +1,2482 @@
+[
+  {
+    "id": 1,
+    "code": "af",
+    "nameJa": "アフガニスタン",
+    "nameEn": "Afghanistan",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "af.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 2,
+    "code": "ax",
+    "nameJa": "オーランド諸島",
+    "nameEn": "Åland Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "ax.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 3,
+    "code": "al",
+    "nameJa": "アルバニア",
+    "nameEn": "Albania",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "al.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 4,
+    "code": "dz",
+    "nameJa": "アルジェリア",
+    "nameEn": "Algeria",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "dz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 5,
+    "code": "as",
+    "nameJa": "米領サモア",
+    "nameEn": "American Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "as.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 6,
+    "code": "ad",
+    "nameJa": "アンドラ",
+    "nameEn": "Andorra",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "ad.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 7,
+    "code": "ao",
+    "nameJa": "アンゴラ",
+    "nameEn": "Angola",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ao.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 8,
+    "code": "ai",
+    "nameJa": "アンギラ",
+    "nameEn": "Anguilla",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ai.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 9,
+    "code": "ag",
+    "nameJa": "アンティグア・バーブーダ",
+    "nameEn": "Antigua and Barbuda",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ag.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 10,
+    "code": "ar",
+    "nameJa": "アルゼンチン",
+    "nameEn": "Argentina",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ar.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 11,
+    "code": "am",
+    "nameJa": "アルメニア",
+    "nameEn": "Armenia",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "am.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 12,
+    "code": "aw",
+    "nameJa": "アルバ",
+    "nameEn": "Aruba",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "aw.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 13,
+    "code": "au",
+    "nameJa": "オーストラリア",
+    "nameEn": "Australia",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "au.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 14,
+    "code": "at",
+    "nameJa": "オーストリア",
+    "nameEn": "Austria",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "at.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 15,
+    "code": "az",
+    "nameJa": "アゼルバイジャン",
+    "nameEn": "Azerbaijan",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "az.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 16,
+    "code": "bs",
+    "nameJa": "バハマ",
+    "nameEn": "Bahamas",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bs.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 17,
+    "code": "bh",
+    "nameJa": "バーレーン",
+    "nameEn": "Bahrain",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "bh.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 18,
+    "code": "bd",
+    "nameJa": "バングラデシュ",
+    "nameEn": "Bangladesh",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "bd.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 19,
+    "code": "bb",
+    "nameJa": "バルバドス",
+    "nameEn": "Barbados",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bb.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 20,
+    "code": "by",
+    "nameJa": "ベラルーシ",
+    "nameEn": "Belarus",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "by.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 21,
+    "code": "be",
+    "nameJa": "ベルギー",
+    "nameEn": "Belgium",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "be.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 22,
+    "code": "bz",
+    "nameJa": "ベリーズ",
+    "nameEn": "Belize",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 23,
+    "code": "bj",
+    "nameJa": "ベナン",
+    "nameEn": "Benin",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "bj.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 24,
+    "code": "bm",
+    "nameJa": "バミューダ",
+    "nameEn": "Bermuda",
+    "region": "North America",
+    "subregion": "Northern America",
+    "flagImage": "bm.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 25,
+    "code": "bt",
+    "nameJa": "ブータン",
+    "nameEn": "Bhutan",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "bt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 26,
+    "code": "bo",
+    "nameJa": "ボリビア",
+    "nameEn": "Bolivia",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bo.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 27,
+    "code": "bq",
+    "nameJa": "オランダ領カリブ",
+    "nameEn": "Bonaire, Sint Eustatius and Saba",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bq.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 28,
+    "code": "ba",
+    "nameJa": "ボスニア・ヘルツェゴビナ",
+    "nameEn": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "ba.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 29,
+    "code": "bw",
+    "nameJa": "ボツワナ",
+    "nameEn": "Botswana",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "bw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 30,
+    "code": "bv",
+    "nameJa": "ブーベ島",
+    "nameEn": "Bouvet Island",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bv.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 31,
+    "code": "br",
+    "nameJa": "ブラジル",
+    "nameEn": "Brazil",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "br.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 32,
+    "code": "io",
+    "nameJa": "英領インド洋地域",
+    "nameEn": "British Indian Ocean Territory",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "io.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 33,
+    "code": "bn",
+    "nameJa": "ブルネイ",
+    "nameEn": "Brunei",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "bn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 34,
+    "code": "bg",
+    "nameJa": "ブルガリア",
+    "nameEn": "Bulgaria",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "bg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 35,
+    "code": "bf",
+    "nameJa": "ブルキナファソ",
+    "nameEn": "Burkina Faso",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "bf.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 36,
+    "code": "bi",
+    "nameJa": "ブルンジ",
+    "nameEn": "Burundi",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "bi.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 37,
+    "code": "cv",
+    "nameJa": "カーボベルデ",
+    "nameEn": "Cabo Verde",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "cv.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 38,
+    "code": "kh",
+    "nameJa": "カンボジア",
+    "nameEn": "Cambodia",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "kh.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 39,
+    "code": "cm",
+    "nameJa": "カメルーン",
+    "nameEn": "Cameroon",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "cm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 40,
+    "code": "ca",
+    "nameJa": "カナダ",
+    "nameEn": "Canada",
+    "region": "North America",
+    "subregion": "Northern America",
+    "flagImage": "ca.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 41,
+    "code": "ky",
+    "nameJa": "ケイマン諸島",
+    "nameEn": "Cayman Islands",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ky.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 42,
+    "code": "cf",
+    "nameJa": "中央アフリカ共和国",
+    "nameEn": "Central African Republic",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "cf.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 43,
+    "code": "td",
+    "nameJa": "チャド",
+    "nameEn": "Chad",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "td.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 44,
+    "code": "cl",
+    "nameJa": "チリ",
+    "nameEn": "Chile",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "cl.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 45,
+    "code": "cn",
+    "nameJa": "中国",
+    "nameEn": "China",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "cn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 46,
+    "code": "cx",
+    "nameJa": "クリスマス島",
+    "nameEn": "Christmas Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "cx.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 47,
+    "code": "cc",
+    "nameJa": "ココス(キーリング)諸島",
+    "nameEn": "Cocos (Keeling) Islands",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "cc.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 48,
+    "code": "co",
+    "nameJa": "コロンビア",
+    "nameEn": "Colombia",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "co.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 49,
+    "code": "km",
+    "nameJa": "コモロ",
+    "nameEn": "Comoros",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "km.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 50,
+    "code": "ck",
+    "nameJa": "クック諸島",
+    "nameEn": "Cook Islands",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "ck.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 51,
+    "code": "cr",
+    "nameJa": "コスタリカ",
+    "nameEn": "Costa Rica",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "cr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 52,
+    "code": "ci",
+    "nameJa": "コートジボワール",
+    "nameEn": "Côte d'Ivoire",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ci.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 53,
+    "code": "hr",
+    "nameJa": "クロアチア",
+    "nameEn": "Croatia",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "hr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 54,
+    "code": "cu",
+    "nameJa": "キューバ",
+    "nameEn": "Cuba",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "cu.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 55,
+    "code": "cw",
+    "nameJa": "キュラソー",
+    "nameEn": "Curaçao",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "cw.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 56,
+    "code": "cy",
+    "nameJa": "キプロス",
+    "nameEn": "Cyprus",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "cy.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 57,
+    "code": "cz",
+    "nameJa": "チェコ",
+    "nameEn": "Czechia",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "cz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 58,
+    "code": "dk",
+    "nameJa": "デンマーク",
+    "nameEn": "Denmark",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "dk.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 59,
+    "code": "dj",
+    "nameJa": "ジブチ",
+    "nameEn": "Djibouti",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "dj.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 60,
+    "code": "dm",
+    "nameJa": "ドミニカ国",
+    "nameEn": "Dominica",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "dm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 61,
+    "code": "do",
+    "nameJa": "ドミニカ共和国",
+    "nameEn": "Dominican Republic",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "do.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 62,
+    "code": "cd",
+    "nameJa": "コンゴ民主共和国",
+    "nameEn": "DR Congo",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "cd.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 63,
+    "code": "ec",
+    "nameJa": "エクアドル",
+    "nameEn": "Ecuador",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ec.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 64,
+    "code": "eg",
+    "nameJa": "エジプト",
+    "nameEn": "Egypt",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "eg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 65,
+    "code": "sv",
+    "nameJa": "エルサルバドル",
+    "nameEn": "El Salvador",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "sv.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 66,
+    "code": "gq",
+    "nameJa": "赤道ギニア",
+    "nameEn": "Equatorial Guinea",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "gq.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 67,
+    "code": "er",
+    "nameJa": "エリトリア",
+    "nameEn": "Eritrea",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "er.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 68,
+    "code": "ee",
+    "nameJa": "エストニア",
+    "nameEn": "Estonia",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "ee.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 69,
+    "code": "sz",
+    "nameJa": "エスワティニ",
+    "nameEn": "Eswatini",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "sz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 70,
+    "code": "et",
+    "nameJa": "エチオピア",
+    "nameEn": "Ethiopia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "et.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 71,
+    "code": "fk",
+    "nameJa": "フォークランド諸島",
+    "nameEn": "Falkland Islands",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "fk.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 72,
+    "code": "fo",
+    "nameJa": "フェロー諸島",
+    "nameEn": "Faroe Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "fo.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 73,
+    "code": "fj",
+    "nameJa": "フィジー",
+    "nameEn": "Fiji",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "flagImage": "fj.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 74,
+    "code": "fi",
+    "nameJa": "フィンランド",
+    "nameEn": "Finland",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "fi.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 75,
+    "code": "fr",
+    "nameJa": "フランス",
+    "nameEn": "France",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "fr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 76,
+    "code": "gf",
+    "nameJa": "仏領ギアナ",
+    "nameEn": "French Guiana",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 77,
+    "code": "pf",
+    "nameJa": "仏領ポリネシア",
+    "nameEn": "French Polynesia",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "pf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 78,
+    "code": "tf",
+    "nameJa": "仏領極南諸島",
+    "nameEn": "French Southern Territories",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "tf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 79,
+    "code": "ga",
+    "nameJa": "ガボン",
+    "nameEn": "Gabon",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ga.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 80,
+    "code": "gm",
+    "nameJa": "ガンビア",
+    "nameEn": "Gambia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "gm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 81,
+    "code": "ge",
+    "nameJa": "ジョージア",
+    "nameEn": "Georgia",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "ge.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 82,
+    "code": "de",
+    "nameJa": "ドイツ",
+    "nameEn": "Germany",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "de.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 83,
+    "code": "gh",
+    "nameJa": "ガーナ",
+    "nameEn": "Ghana",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "gh.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 84,
+    "code": "gi",
+    "nameJa": "ジブラルタル",
+    "nameEn": "Gibraltar",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "gi.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 85,
+    "code": "gr",
+    "nameJa": "ギリシャ",
+    "nameEn": "Greece",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "gr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 86,
+    "code": "gl",
+    "nameJa": "グリーンランド",
+    "nameEn": "Greenland",
+    "region": "North America",
+    "subregion": "Northern America",
+    "flagImage": "gl.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 87,
+    "code": "gd",
+    "nameJa": "グレナダ",
+    "nameEn": "Grenada",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gd.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 88,
+    "code": "gp",
+    "nameJa": "グアドループ",
+    "nameEn": "Guadeloupe",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gp.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 89,
+    "code": "gu",
+    "nameJa": "グアム",
+    "nameEn": "Guam",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "gu.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 90,
+    "code": "gt",
+    "nameJa": "グアテマラ",
+    "nameEn": "Guatemala",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 91,
+    "code": "gg",
+    "nameJa": "ガーンジー",
+    "nameEn": "Guernsey",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "gg.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 92,
+    "code": "gn",
+    "nameJa": "ギニア",
+    "nameEn": "Guinea",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "gn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 93,
+    "code": "gw",
+    "nameJa": "ギニアビサウ",
+    "nameEn": "Guinea-Bissau",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "gw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 94,
+    "code": "gy",
+    "nameJa": "ガイアナ",
+    "nameEn": "Guyana",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gy.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 95,
+    "code": "ht",
+    "nameJa": "ハイチ",
+    "nameEn": "Haiti",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ht.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 96,
+    "code": "hm",
+    "nameJa": "ハード島・マクドナルド諸島",
+    "nameEn": "Heard Island and McDonald Islands",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "hm.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 97,
+    "code": "hn",
+    "nameJa": "ホンジュラス",
+    "nameEn": "Honduras",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "hn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 98,
+    "code": "hk",
+    "nameJa": "中華人民共和国香港特別行政区",
+    "nameEn": "Hong Kong",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "hk.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 99,
+    "code": "hu",
+    "nameJa": "ハンガリー",
+    "nameEn": "Hungary",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "hu.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 100,
+    "code": "is",
+    "nameJa": "アイスランド",
+    "nameEn": "Iceland",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "is.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 101,
+    "code": "in",
+    "nameJa": "インド",
+    "nameEn": "India",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "in.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 102,
+    "code": "id",
+    "nameJa": "インドネシア",
+    "nameEn": "Indonesia",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "id.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 103,
+    "code": "ir",
+    "nameJa": "イラン",
+    "nameEn": "Iran",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "ir.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 104,
+    "code": "iq",
+    "nameJa": "イラク",
+    "nameEn": "Iraq",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "iq.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 105,
+    "code": "ie",
+    "nameJa": "アイルランド",
+    "nameEn": "Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "ie.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 106,
+    "code": "im",
+    "nameJa": "マン島",
+    "nameEn": "Isle of Man",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "im.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 107,
+    "code": "il",
+    "nameJa": "イスラエル",
+    "nameEn": "Israel",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "il.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 108,
+    "code": "it",
+    "nameJa": "イタリア",
+    "nameEn": "Italy",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "it.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 109,
+    "code": "jm",
+    "nameJa": "ジャマイカ",
+    "nameEn": "Jamaica",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "jm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 110,
+    "code": "jp",
+    "nameJa": "日本",
+    "nameEn": "Japan",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "jp.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 111,
+    "code": "je",
+    "nameJa": "ジャージー",
+    "nameEn": "Jersey",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "je.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 112,
+    "code": "jo",
+    "nameJa": "ヨルダン",
+    "nameEn": "Jordan",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "jo.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 113,
+    "code": "kz",
+    "nameJa": "カザフスタン",
+    "nameEn": "Kazakhstan",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "flagImage": "kz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 114,
+    "code": "ke",
+    "nameJa": "ケニア",
+    "nameEn": "Kenya",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ke.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 115,
+    "code": "ki",
+    "nameJa": "キリバス",
+    "nameEn": "Kiribati",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "ki.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 116,
+    "code": "kw",
+    "nameJa": "クウェート",
+    "nameEn": "Kuwait",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "kw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 117,
+    "code": "kg",
+    "nameJa": "キルギス",
+    "nameEn": "Kyrgyzstan",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "flagImage": "kg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 118,
+    "code": "la",
+    "nameJa": "ラオス",
+    "nameEn": "Laos",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "la.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 119,
+    "code": "lv",
+    "nameJa": "ラトビア",
+    "nameEn": "Latvia",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "lv.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 120,
+    "code": "lb",
+    "nameJa": "レバノン",
+    "nameEn": "Lebanon",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "lb.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 121,
+    "code": "ls",
+    "nameJa": "レソト",
+    "nameEn": "Lesotho",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ls.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 122,
+    "code": "lr",
+    "nameJa": "リベリア",
+    "nameEn": "Liberia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "lr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 123,
+    "code": "ly",
+    "nameJa": "リビア",
+    "nameEn": "Libya",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "ly.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 124,
+    "code": "li",
+    "nameJa": "リヒテンシュタイン",
+    "nameEn": "Liechtenstein",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "li.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 125,
+    "code": "lt",
+    "nameJa": "リトアニア",
+    "nameEn": "Lithuania",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "lt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 126,
+    "code": "lu",
+    "nameJa": "ルクセンブルク",
+    "nameEn": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "lu.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 127,
+    "code": "mo",
+    "nameJa": "中華人民共和国マカオ特別行政区",
+    "nameEn": "Macao",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "mo.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 128,
+    "code": "mg",
+    "nameJa": "マダガスカル",
+    "nameEn": "Madagascar",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "mg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 129,
+    "code": "mw",
+    "nameJa": "マラウイ",
+    "nameEn": "Malawi",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "mw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 130,
+    "code": "my",
+    "nameJa": "マレーシア",
+    "nameEn": "Malaysia",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "my.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 131,
+    "code": "mv",
+    "nameJa": "モルディブ",
+    "nameEn": "Maldives",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "mv.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 132,
+    "code": "ml",
+    "nameJa": "マリ",
+    "nameEn": "Mali",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ml.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 133,
+    "code": "mt",
+    "nameJa": "マルタ",
+    "nameEn": "Malta",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "mt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 134,
+    "code": "mh",
+    "nameJa": "マーシャル諸島",
+    "nameEn": "Marshall Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "mh.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 135,
+    "code": "mq",
+    "nameJa": "マルティニーク",
+    "nameEn": "Martinique",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "mq.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 136,
+    "code": "mr",
+    "nameJa": "モーリタニア",
+    "nameEn": "Mauritania",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "mr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 137,
+    "code": "mu",
+    "nameJa": "モーリシャス",
+    "nameEn": "Mauritius",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "mu.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 138,
+    "code": "yt",
+    "nameJa": "マヨット",
+    "nameEn": "Mayotte",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "yt.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 139,
+    "code": "mx",
+    "nameJa": "メキシコ",
+    "nameEn": "Mexico",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "mx.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 140,
+    "code": "fm",
+    "nameJa": "ミクロネシア",
+    "nameEn": "Micronesia",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "fm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 141,
+    "code": "md",
+    "nameJa": "モルドバ",
+    "nameEn": "Moldova",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "md.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 142,
+    "code": "mc",
+    "nameJa": "モナコ",
+    "nameEn": "Monaco",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "mc.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 143,
+    "code": "mn",
+    "nameJa": "モンゴル",
+    "nameEn": "Mongolia",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "mn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 144,
+    "code": "me",
+    "nameJa": "モンテネグロ",
+    "nameEn": "Montenegro",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "me.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 145,
+    "code": "ms",
+    "nameJa": "モントセラト",
+    "nameEn": "Montserrat",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ms.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 146,
+    "code": "ma",
+    "nameJa": "モロッコ",
+    "nameEn": "Morocco",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "ma.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 147,
+    "code": "mz",
+    "nameJa": "モザンビーク",
+    "nameEn": "Mozambique",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "mz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 148,
+    "code": "mm",
+    "nameJa": "ミャンマー (ビルマ)",
+    "nameEn": "Myanmar",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "mm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 149,
+    "code": "na",
+    "nameJa": "ナミビア",
+    "nameEn": "Namibia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "na.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 150,
+    "code": "nr",
+    "nameJa": "ナウル",
+    "nameEn": "Nauru",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "nr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 151,
+    "code": "np",
+    "nameJa": "ネパール",
+    "nameEn": "Nepal",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "np.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 152,
+    "code": "nl",
+    "nameJa": "オランダ",
+    "nameEn": "Netherlands",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "nl.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 153,
+    "code": "nc",
+    "nameJa": "ニューカレドニア",
+    "nameEn": "New Caledonia",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "flagImage": "nc.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 154,
+    "code": "nz",
+    "nameJa": "ニュージーランド",
+    "nameEn": "New Zealand",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "nz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 155,
+    "code": "ni",
+    "nameJa": "ニカラグア",
+    "nameEn": "Nicaragua",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ni.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 156,
+    "code": "ne",
+    "nameJa": "ニジェール",
+    "nameEn": "Niger",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ne.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 157,
+    "code": "ng",
+    "nameJa": "ナイジェリア",
+    "nameEn": "Nigeria",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ng.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 158,
+    "code": "nu",
+    "nameJa": "ニウエ",
+    "nameEn": "Niue",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "nu.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 159,
+    "code": "nf",
+    "nameJa": "ノーフォーク島",
+    "nameEn": "Norfolk Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "flagImage": "nf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 160,
+    "code": "kp",
+    "nameJa": "北朝鮮",
+    "nameEn": "North Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "kp.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 161,
+    "code": "mk",
+    "nameJa": "北マケドニア",
+    "nameEn": "North Macedonia",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "mk.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 162,
+    "code": "mp",
+    "nameJa": "北マリアナ諸島",
+    "nameEn": "Northern Mariana Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "mp.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 163,
+    "code": "no",
+    "nameJa": "ノルウェー",
+    "nameEn": "Norway",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "no.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 164,
+    "code": "om",
+    "nameJa": "オマーン",
+    "nameEn": "Oman",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "om.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 165,
+    "code": "pk",
+    "nameJa": "パキスタン",
+    "nameEn": "Pakistan",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "pk.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 166,
+    "code": "pw",
+    "nameJa": "パラオ",
+    "nameEn": "Palau",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "pw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 167,
+    "code": "ps",
+    "nameJa": "パレスチナ",
+    "nameEn": "Palestine",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "ps.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 168,
+    "code": "pa",
+    "nameJa": "パナマ",
+    "nameEn": "Panama",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "pa.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 169,
+    "code": "pg",
+    "nameJa": "パプアニューギニア",
+    "nameEn": "Papua New Guinea",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "flagImage": "pg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 170,
+    "code": "py",
+    "nameJa": "パラグアイ",
+    "nameEn": "Paraguay",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "py.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 171,
+    "code": "pe",
+    "nameJa": "ペルー",
+    "nameEn": "Peru",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "pe.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 172,
+    "code": "ph",
+    "nameJa": "フィリピン",
+    "nameEn": "Philippines",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "ph.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 173,
+    "code": "pn",
+    "nameJa": "ピトケアン諸島",
+    "nameEn": "Pitcairn",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "pn.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 174,
+    "code": "pl",
+    "nameJa": "ポーランド",
+    "nameEn": "Poland",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "pl.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 175,
+    "code": "pt",
+    "nameJa": "ポルトガル",
+    "nameEn": "Portugal",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "pt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 176,
+    "code": "pr",
+    "nameJa": "プエルトリコ",
+    "nameEn": "Puerto Rico",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "pr.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 177,
+    "code": "qa",
+    "nameJa": "カタール",
+    "nameEn": "Qatar",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "qa.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 178,
+    "code": "cg",
+    "nameJa": "コンゴ共和国",
+    "nameEn": "Republic of the Congo",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "cg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 179,
+    "code": "re",
+    "nameJa": "レユニオン",
+    "nameEn": "Réunion",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "re.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 180,
+    "code": "ro",
+    "nameJa": "ルーマニア",
+    "nameEn": "Romania",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "ro.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 181,
+    "code": "ru",
+    "nameJa": "ロシア",
+    "nameEn": "Russia",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "ru.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 182,
+    "code": "rw",
+    "nameJa": "ルワンダ",
+    "nameEn": "Rwanda",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "rw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 183,
+    "code": "bl",
+    "nameJa": "サン・バルテルミー",
+    "nameEn": "Saint Barthélemy",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "bl.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 184,
+    "code": "sh",
+    "nameJa": "セントヘレナ",
+    "nameEn": "Saint Helena",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "sh.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 185,
+    "code": "kn",
+    "nameJa": "セントクリストファー・ネーヴィス",
+    "nameEn": "Saint Kitts and Nevis",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "kn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 186,
+    "code": "lc",
+    "nameJa": "セントルシア",
+    "nameEn": "Saint Lucia",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "lc.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 187,
+    "code": "mf",
+    "nameJa": "サン・マルタン",
+    "nameEn": "Saint Martin (French part)",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "mf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 188,
+    "code": "pm",
+    "nameJa": "サンピエール島・ミクロン島",
+    "nameEn": "Saint Pierre and Miquelon",
+    "region": "North America",
+    "subregion": "Northern America",
+    "flagImage": "pm.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 189,
+    "code": "vc",
+    "nameJa": "セントビンセント及びグレナディーン諸島",
+    "nameEn": "Saint Vincent and the Grenadines",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "vc.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 190,
+    "code": "ws",
+    "nameJa": "サモア",
+    "nameEn": "Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "ws.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 191,
+    "code": "sm",
+    "nameJa": "サンマリノ",
+    "nameEn": "San Marino",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "sm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 192,
+    "code": "st",
+    "nameJa": "サントメ・プリンシペ",
+    "nameEn": "Sao Tome and Principe",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "st.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 193,
+    "code": "sa",
+    "nameJa": "サウジアラビア",
+    "nameEn": "Saudi Arabia",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "sa.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 194,
+    "code": "sn",
+    "nameJa": "セネガル",
+    "nameEn": "Senegal",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "sn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 195,
+    "code": "rs",
+    "nameJa": "セルビア",
+    "nameEn": "Serbia",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "rs.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 196,
+    "code": "sc",
+    "nameJa": "セーシェル",
+    "nameEn": "Seychelles",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "sc.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 197,
+    "code": "sl",
+    "nameJa": "シエラレオネ",
+    "nameEn": "Sierra Leone",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "sl.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 198,
+    "code": "sg",
+    "nameJa": "シンガポール",
+    "nameEn": "Singapore",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "sg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 199,
+    "code": "sx",
+    "nameJa": "シント・マールテン",
+    "nameEn": "Sint Maarten",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "sx.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 200,
+    "code": "sk",
+    "nameJa": "スロバキア",
+    "nameEn": "Slovakia",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "sk.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 201,
+    "code": "si",
+    "nameJa": "スロベニア",
+    "nameEn": "Slovenia",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "si.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 202,
+    "code": "sb",
+    "nameJa": "ソロモン諸島",
+    "nameEn": "Solomon Islands",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "flagImage": "sb.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 203,
+    "code": "so",
+    "nameJa": "ソマリア",
+    "nameEn": "Somalia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "so.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 204,
+    "code": "za",
+    "nameJa": "南アフリカ",
+    "nameEn": "South Africa",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "za.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 205,
+    "code": "gs",
+    "nameJa": "サウスジョージア・サウスサンドウィッチ諸島",
+    "nameEn": "South Georgia and the South Sandwich Islands",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "gs.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 206,
+    "code": "kr",
+    "nameJa": "韓国",
+    "nameEn": "South Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "kr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 207,
+    "code": "ss",
+    "nameJa": "南スーダン",
+    "nameEn": "South Sudan",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ss.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 208,
+    "code": "es",
+    "nameJa": "スペイン",
+    "nameEn": "Spain",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "es.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 209,
+    "code": "lk",
+    "nameJa": "スリランカ",
+    "nameEn": "Sri Lanka",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flagImage": "lk.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 210,
+    "code": "sd",
+    "nameJa": "スーダン",
+    "nameEn": "Sudan",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "sd.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 211,
+    "code": "sr",
+    "nameJa": "スリナム",
+    "nameEn": "Suriname",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "sr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 212,
+    "code": "sj",
+    "nameJa": "スバールバル諸島・ヤンマイエン島",
+    "nameEn": "Svalbard and Jan Mayen",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "sj.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 213,
+    "code": "se",
+    "nameJa": "スウェーデン",
+    "nameEn": "Sweden",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "se.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 214,
+    "code": "ch",
+    "nameJa": "スイス",
+    "nameEn": "Switzerland",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "flagImage": "ch.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 215,
+    "code": "sy",
+    "nameJa": "シリア",
+    "nameEn": "Syria",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "sy.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 216,
+    "code": "tw",
+    "nameJa": "台湾",
+    "nameEn": "Taiwan",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "flagImage": "tw.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 217,
+    "code": "tj",
+    "nameJa": "タジキスタン",
+    "nameEn": "Tajikistan",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "flagImage": "tj.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 218,
+    "code": "tz",
+    "nameJa": "タンザニア",
+    "nameEn": "Tanzania",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "tz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 219,
+    "code": "th",
+    "nameJa": "タイ",
+    "nameEn": "Thailand",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "th.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 220,
+    "code": "tl",
+    "nameJa": "東ティモール",
+    "nameEn": "Timor-Leste",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "tl.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 221,
+    "code": "tg",
+    "nameJa": "トーゴ",
+    "nameEn": "Togo",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "tg.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 222,
+    "code": "tk",
+    "nameJa": "トケラウ",
+    "nameEn": "Tokelau",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "tk.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 223,
+    "code": "to",
+    "nameJa": "トンガ",
+    "nameEn": "Tonga",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "to.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 224,
+    "code": "tt",
+    "nameJa": "トリニダード・トバゴ",
+    "nameEn": "Trinidad and Tobago",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "tt.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 225,
+    "code": "tn",
+    "nameJa": "チュニジア",
+    "nameEn": "Tunisia",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "tn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 226,
+    "code": "tr",
+    "nameJa": "トルコ",
+    "nameEn": "Türkiye",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "tr.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 227,
+    "code": "tm",
+    "nameJa": "トルクメニスタン",
+    "nameEn": "Turkmenistan",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "flagImage": "tm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 228,
+    "code": "tc",
+    "nameJa": "タークス・カイコス諸島",
+    "nameEn": "Turks and Caicos Islands",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "tc.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 229,
+    "code": "tv",
+    "nameJa": "ツバル",
+    "nameEn": "Tuvalu",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "tv.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 230,
+    "code": "ug",
+    "nameJa": "ウガンダ",
+    "nameEn": "Uganda",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "ug.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 231,
+    "code": "ua",
+    "nameJa": "ウクライナ",
+    "nameEn": "Ukraine",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "flagImage": "ua.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 232,
+    "code": "ae",
+    "nameJa": "アラブ首長国連邦",
+    "nameEn": "United Arab Emirates",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "ae.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 233,
+    "code": "gb",
+    "nameJa": "イギリス",
+    "nameEn": "United Kingdom",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "flagImage": "gb.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 234,
+    "code": "us",
+    "nameJa": "アメリカ合衆国",
+    "nameEn": "United States",
+    "region": "North America",
+    "subregion": "Northern America",
+    "flagImage": "us.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 235,
+    "code": "um",
+    "nameJa": "合衆国領有小離島",
+    "nameEn": "United States Minor Outlying Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "flagImage": "um.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 236,
+    "code": "uy",
+    "nameJa": "ウルグアイ",
+    "nameEn": "Uruguay",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "uy.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 237,
+    "code": "uz",
+    "nameJa": "ウズベキスタン",
+    "nameEn": "Uzbekistan",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "flagImage": "uz.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 238,
+    "code": "vu",
+    "nameJa": "バヌアツ",
+    "nameEn": "Vanuatu",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "flagImage": "vu.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 239,
+    "code": "va",
+    "nameJa": "バチカン",
+    "nameEn": "Vatican City",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "flagImage": "va.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 240,
+    "code": "ve",
+    "nameJa": "ベネズエラ",
+    "nameEn": "Venezuela",
+    "region": "South America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "ve.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 241,
+    "code": "vn",
+    "nameJa": "ベトナム",
+    "nameEn": "Vietnam",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "flagImage": "vn.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 242,
+    "code": "vg",
+    "nameJa": "英領ヴァージン諸島",
+    "nameEn": "Virgin Islands (British)",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "vg.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 243,
+    "code": "vi",
+    "nameJa": "米領ヴァージン諸島",
+    "nameEn": "Virgin Islands (U.S.)",
+    "region": "North America",
+    "subregion": "Latin America and the Caribbean",
+    "flagImage": "vi.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 244,
+    "code": "wf",
+    "nameJa": "ウォリス・フツナ",
+    "nameEn": "Wallis and Futuna",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "flagImage": "wf.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 245,
+    "code": "eh",
+    "nameJa": "西サハラ",
+    "nameEn": "Western Sahara",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "flagImage": "eh.png",
+    "isQuizTarget": false
+  },
+  {
+    "id": 246,
+    "code": "ye",
+    "nameJa": "イエメン",
+    "nameEn": "Yemen",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "flagImage": "ye.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 247,
+    "code": "zm",
+    "nameJa": "ザンビア",
+    "nameEn": "Zambia",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "zm.png",
+    "isQuizTarget": true
+  },
+  {
+    "id": 248,
+    "code": "zw",
+    "nameJa": "ジンバブエ",
+    "nameEn": "Zimbabwe",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "flagImage": "zw.png",
+    "isQuizTarget": true
+  }
+]
